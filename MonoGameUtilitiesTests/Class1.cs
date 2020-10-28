@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MonogameUtilitiesTests
+﻿namespace Zen.MonoGameUtilitiesTests
 {
     public class Class1
     {
