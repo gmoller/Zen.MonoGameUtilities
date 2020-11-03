@@ -338,3 +338,5 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/MonoGameUtilities/nuget.exe
+/MonoGameUtilities/Zen.MonoGameUtilities.nuspec

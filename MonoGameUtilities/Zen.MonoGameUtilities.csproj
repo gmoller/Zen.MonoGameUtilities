@@ -3,14 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>Greg Moller</Authors>
-    <Version>0.1.0</Version>
+    <Version>0.1.4</Version>
     <Company>Zen</Company>
+    <Description>An amalgamation of various helper routines for use with MonoGame in my software.</Description>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
-    <PackageReference Include="Zen.Hexagons" Version="1.0.5" />
-    <PackageReference Include="Zen.Utilities" Version="0.1.0" />
+    <PackageReference Include="Zen.Hexagons" Version="1.0.6" />
+    <PackageReference Include="Zen.Utilities" Version="0.1.5" />
   </ItemGroup>
 
 </Project>
