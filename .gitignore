@@ -340,3 +340,4 @@ ASALocalRun/
 healthchecksdb
 /MonoGameUtilities/nuget.exe
 /MonoGameUtilities/Zen.MonoGameUtilities.nuspec
+/Zen.MonoGameUtilities.csproj
