@@ -9,7 +9,7 @@ namespace Zen.MonoGameUtilities
     {
         public static List<string> WrapText(string text, double pixels, SpriteFont spriteFont)
         {
-            string[] originalWords = text.Split(new string[] { " " }, StringSplitOptions.None);
+            var originalWords = text.Split(new string[] { " " }, StringSplitOptions.None);
 
             var wrappedLines = new List<string>();
 
