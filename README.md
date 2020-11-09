@@ -2,7 +2,7 @@
 
 An amalgamation of various helper routines for use with MonoGame in my software.
 
-Nuget package download: https://www.nuget.org/packages/Zen.MonoGameUtilities/0.1.2
+Nuget package download: https://www.nuget.org/packages/Zen.MonoGameUtilities/0.1.5
 
 # Example
 To use:
