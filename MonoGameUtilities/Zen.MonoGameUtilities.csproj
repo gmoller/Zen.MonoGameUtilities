@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>Zen.MonoGameUtilities</AssemblyName>
     <RootNamespace>Zen.MonoGameUtilities</RootNamespace>
-    <Version>0.1.8</Version>
+    <Version>0.1.9</Version>
     <Authors>Greg Moller</Authors>
     <Company>Zen</Company>
     <Description>An amalgamation of various helper routines for use with MonoGame in my software.</Description>
@@ -14,7 +14,7 @@
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
     <PackageReference Include="Zen.Hexagons" Version="1.0.7" />
-    <PackageReference Include="Zen.Utilities" Version="0.1.10" />
+    <PackageReference Include="Zen.Utilities" Version="0.1.20" />
   </ItemGroup>
 
 </Project>
