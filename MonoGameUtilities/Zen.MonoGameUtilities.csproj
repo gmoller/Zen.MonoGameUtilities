@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>Zen.MonoGameUtilities</AssemblyName>
     <RootNamespace>Zen.MonoGameUtilities</RootNamespace>
-    <Version>0.1.9</Version>
+    <Version>0.1.10</Version>
     <Authors>Greg Moller</Authors>
     <Company>Zen</Company>
     <Description>An amalgamation of various helper routines for use with MonoGame in my software.</Description>

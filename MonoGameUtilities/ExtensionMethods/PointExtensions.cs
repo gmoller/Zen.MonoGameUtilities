@@ -20,6 +20,15 @@ namespace Zen.MonoGameUtilities.ExtensionMethods
             return isWithinRectangle;
         }
 
+        public static bool IsWithinRectangle(this Point p1, Rectangle rectangle, Matrix transform)
+        {
+            var worldPositionPointedAtByMouseCursor = p1.ToWorldPosition(transform);
+            var worldRectangle = rectangle.Transform(transform);
+            var isWithinRectangle = worldRectangle.Contains(worldPositionPointedAtByMouseCursor);
+
+            return isWithinRectangle;
+        }
+
         public static bool IsWithinHex(this Point p1, PointI p2, Matrix transform, HexLibrary hexLibrary)
         {
             var hexOffsetCoordinates = new HexOffsetCoordinates(p2.X, p2.Y);
